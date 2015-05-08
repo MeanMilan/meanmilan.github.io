@@ -1,8 +1,13 @@
 body{
     background-color: #02A9D3;
-    font-color: white;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 date{
     font-size: 1.5em;
+}
+
+i{
+    font-size: 65px;
 }
