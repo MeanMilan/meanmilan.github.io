@@ -11,3 +11,7 @@ date{
 i{
     font-size: 65px;
 }
+
+.italic{
+    font-style: italic;
+}
