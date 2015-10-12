@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Mean Milan</title>
-    <link rel="stylesheet" href="./components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-css-only/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style/style.css">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
 </head>
@@ -19,114 +19,14 @@
                         <header>
                             <h1>Next Events:</h1>
                         </header>
-                        <div>
-                            <div class="row">
-                                <div class="col-xs-1">
-                                    <i>1.</i>
-                                </div>
-                                <div class="col-xs-11">
-                                    <h2>Javascript Workflow Evolution</h2>
-                                    <h4>Lorenzo Sicilia</h4>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <p>
-                                                Avanzi <br>
-                                                Via Ampère 61/A, 20131 Milano
-                                            </p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <date>
-                                                21 maggio - 19:00
-                                            </date>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="row">
-                                <div class="col-xs-1">
-                                    <i>2.</i>
-                                </div>
-                                <div class="col-xs-11">
-                                    <h2>Node's cool Workshop</h2>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <p>
-                                                Login <br>
-                                                via Stefanardo da Vimercate 28, 20128 Milano
-                                            </p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <date>
-                                                23 maggio h: 15.00
-                                            </date>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="row">
-                                <div class="col-xs-1">
-                                    <i>3.</i>
-                                </div>
-                                <div class="col-xs-11">
-                                    <h2>Async & Me</h2>
-                                    <h4>Matteo Scandolo</h4>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <p class="italic">
-                                                La mia esperienza con la programmazione asincrona, qualche piccolo trucco e consigli pratici. Callback, Promise e Generators, qual'è la soluzione migliore?
-                                            </p>
-                                            <p>
-                                                Copernico <br>
-                                                Via Copernico 38, 20124 Milano
-                                            </p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <date>
-                                                23 giugno h: 19.00
-                                            </date>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="row">
-                                <div class="col-xs-1">
-                                    <i>4.</i>
-                                </div>
-                                <div class="col-xs-11">
-                                    <h2>OpenMic</h2>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <p class="italic">
-                                                Quattro Lighting Talk a cura della Community, proponi il tuo! Hai tempo fino al <b>10 giugno</b> per proporre il tuo talk, <b>dal 10 al 22 giugno</b> sarà aperto un sondaggio per scegliere i quattro talk vincitori, che saranno tenuti durante il meetup di Luglio.
-                                            </p>
-                                            <p>
-                                                Proponi <a href="https://github.com/MeanMilan/meanmilan.github.io/issues/1">qui</a> il tuo talk!
-                                            </p>
-                                            <p>
-                                                MikaMai <br>
-                                                Via Giulio e Corrado Venini, 42, 20127 Milano
-                                            </p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <date>
-                                                28 luglio h: 19.00
-                                            </date>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="event-container"></div>
                     </article>
                 </section>
            </div>
        </div>
    </div>
+   
    <a href="https://github.com/MeanMilan/meanmilan.github.io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+   <script src="dist/bundle.js"></script>
 </body>
 </html>
